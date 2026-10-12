@@ -5,7 +5,7 @@ on the Commodore 64 — live display of both controller ports' raw switch
 state (four directions + fire, two ports), on emulators and real
 hardware.
 
-![Joystick Tester 64 running in GUI64](screenshots/joy2_all_lit.png)
+![Joystick Tester 64 running in GUI64 — Joy 2 with down+right held](screenshots/joy2_down_right.png)
 
 Status: **first working build** — the app runs on the GUI64 v2.1
 cart in VICE: window, menus, both live panels, port-2 and port-1

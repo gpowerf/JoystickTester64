@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.d64
+*.gui
+*.prg
+*.o
+*.sym
+*.bmp
+*.egg-info/

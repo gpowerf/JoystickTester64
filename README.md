@@ -1,7 +1,7 @@
-# Joystick Tester C64
+# Joystick Tester 64
 
-A joystick tester for the Commodore 64 (C64) that runs on the GUI64
-desktop environment.
+A basic joystick [GUI64](https://github.com/WebFritzi/GUI64)
+tester on the Commodore 64 AKA C64
 
 ![Joystick Tester 64 running in GUI64 — Joy 2 with down+right held](screenshots/joy2_down_right.png)
 

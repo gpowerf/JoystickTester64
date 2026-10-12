@@ -1,9 +1,7 @@
 # Joystick Tester 64
 
-A joystick diagnostic app for [GUI64](https://github.com/WebFritzi/GUI64)
-on the Commodore 64 — live display of both controller ports' raw switch
-state (four directions + fire, two ports), on emulators and real
-hardware.
+A basic joystick [GUI64](https://github.com/WebFritzi/GUI64)
+tester on the Commodore 64 AKA C64
 
 ![Joystick Tester 64 running in GUI64 — Joy 2 with down+right held](screenshots/joy2_down_right.png)
 

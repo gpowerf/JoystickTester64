@@ -30,17 +30,37 @@ acceptance suite and the MAC-design check are next, following the
 - File → Quit, Help → About; standard GUI64 window behaviour
 - Works under the WIN and MAC designs of GUI64 2.1
 
-## Building
+## Install (no programming needed)
+
+1. Download **`joytest.d64`** from this repository (a virtual floppy
+   image). If you prefer a single file, `joytest.gui` works too.
+2. Copy it onto the USB stick / SD card you use with your THEC64
+   (or onto any disk your C64 setup can read).
+3. Start your THEC64 / C64 and launch **GUI64**.
+4. In GUI64, open the drive window, navigate to the disk and
+   double-click **JOYTEST.GUI** (or select it and choose File → Run).
+5. The "Joystick Tester" window opens. Done.
+
+What you need: a THEC64 (Maxi/Mini), a real C64, or an emulator
+(VICE) running [GUI64](https://github.com/WebFritzi/GUI64) v2.1.
+No mouse required — keyboard navigation works — but a mouse is nice.
+
+## Port mapping
+
+- **Joy 2** (left box) = control port 2 — the port GUI64 itself uses
+  for the UI ("Joystick in Port #2"). Moving that stick also moves
+  the GUI pointer and fire acts as a click. The tester still shows
+  its lines truthfully.
+- **Joy 1** (right box) = control port 1.
+
+## Building (only if you want to change the code)
 
 Requires [ACME](https://sourceforge.net/projects/acme-crossass/) and
 `c1541` (from VICE):
 
     ./build.sh
 
-This produces `joytest.gui` (the app) and `joytest.d64`
-(disk image). Inside GUI64, open the disk and run
-`joytest.gui`. (The C64 truncates filenames at 16 characters —
-keep the app name short so the `.gui` suffix survives.)
+This produces `joytest.gui` (the app) and `joytest.d64` (disk image).
 
 ## Requirements
 
